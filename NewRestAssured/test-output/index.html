@@ -1,0 +1,1377 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\3691713\AppData\Local\Temp\testng-eclipse--1872815026\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">44 methods, 1 failed,   43 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="waypointUUID">waypointUUID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="AcquiredTaskOutcome">AcquiredTaskOutcome</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="Capturesignature">Capturesignature</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="Capturesignaturedetails">Capturesignaturedetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="DEVIATION">DEVIATION</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="IMPEDEDTASK">IMPEDEDTASK</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="IRREGULARITY">IRREGULARITY</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="REFUSEDTASK">REFUSEDTASK</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="REQUESTREROUTE">REQUESTREROUTE</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="REROUTE">REROUTE</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.TestforSampleAPI" hash-for-method="ReconcilewaypointBuilder">ReconcilewaypointBuilder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="RelinquishedTaskOutcome">RelinquishedTaskOutcome</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="RelinquishedTaskOutcomeDETAILS">RelinquishedTaskOutcomeDETAILS</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="ShipmentUnitNotReleased">ShipmentUnitNotReleased</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="ShipmentUnitNotReleasedTaskOutcome">ShipmentUnitNotReleasedTaskOutcome</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="SignatureNotCapturedTaskOutcome">SignatureNotCapturedTaskOutcome</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="UNDELIVERED">UNDELIVERED</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="VerifyStatusCode">VerifyStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="WYtimestamp">WYtimestamp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="WayPointAddress">WayPointAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="WayPointAddresscodes">WayPointAddresscodes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="handlingUnit">handlingUnit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="paymentNOTaccepteddetails">paymentNOTaccepteddetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="paymentaccepteddetails">paymentaccepteddetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="paymenttask">paymenttask</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="releaseshipmentdetails">releaseshipmentdetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="taskOutcome">taskOutcome</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="taskOutcome1">taskOutcome1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="taskOutcome2">taskOutcome2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="taskType">taskType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="taskType1">taskType1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="taskUUID">taskUUID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="taskaddress">taskaddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="taskadress2">taskadress2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="taskoutcomedetails">taskoutcomedetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="tasktimestamp">tasktimestamp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="test_operationId">test_operationId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="tripId">tripId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="tripUUID">tripUUID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="tripinterrupt">tripinterrupt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="waypointDate">waypointDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="waypointNumber">waypointNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="waypointStage">waypointStage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="NewRestAssured.NewRestAssured.reconcilewaypointviewer" hash-for-method="waypointType">waypointType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">NewRestAssured.NewRestAssured.reconcilewaypointviewer</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="waypointUUID">
+                  </a> <!-- waypointUUID -->
+                  <span class="method-name">waypointUUID</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+JSON path get(0).waypointUUID doesn&apos;t match.
+Expected: THANKYOU
+  Actual: VIEWER
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:598)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:760)
+	at sun.reflect.GeneratedMethodAccessor37.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:251)
+	at com.jayway.restassured.specification.ResponseSpecification$content$1.callCurrent(Unknown Source)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:234)
+	at com.jayway.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:264)
+	at NewRestAssured.NewRestAssured.reconcilewaypointviewer.waypointUUID(reconcilewaypointviewer.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">NewRestAssured.NewRestAssured.TestforSampleAPI</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ReconcilewaypointBuilder">
+                  </a> <!-- ReconcilewaypointBuilder -->
+                  <span class="method-name">ReconcilewaypointBuilder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">NewRestAssured.NewRestAssured.reconcilewaypointviewer</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AcquiredTaskOutcome">
+                  </a> <!-- AcquiredTaskOutcome -->
+                  <span class="method-name">AcquiredTaskOutcome</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Capturesignature">
+                  </a> <!-- Capturesignature -->
+                  <span class="method-name">Capturesignature</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Capturesignaturedetails">
+                  </a> <!-- Capturesignaturedetails -->
+                  <span class="method-name">Capturesignaturedetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DEVIATION">
+                  </a> <!-- DEVIATION -->
+                  <span class="method-name">DEVIATION</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="IMPEDEDTASK">
+                  </a> <!-- IMPEDEDTASK -->
+                  <span class="method-name">IMPEDEDTASK</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="IRREGULARITY">
+                  </a> <!-- IRREGULARITY -->
+                  <span class="method-name">IRREGULARITY</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="REFUSEDTASK">
+                  </a> <!-- REFUSEDTASK -->
+                  <span class="method-name">REFUSEDTASK</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="REQUESTREROUTE">
+                  </a> <!-- REQUESTREROUTE -->
+                  <span class="method-name">REQUESTREROUTE</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="REROUTE">
+                  </a> <!-- REROUTE -->
+                  <span class="method-name">REROUTE</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RelinquishedTaskOutcome">
+                  </a> <!-- RelinquishedTaskOutcome -->
+                  <span class="method-name">RelinquishedTaskOutcome</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RelinquishedTaskOutcomeDETAILS">
+                  </a> <!-- RelinquishedTaskOutcomeDETAILS -->
+                  <span class="method-name">RelinquishedTaskOutcomeDETAILS</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShipmentUnitNotReleased">
+                  </a> <!-- ShipmentUnitNotReleased -->
+                  <span class="method-name">ShipmentUnitNotReleased</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShipmentUnitNotReleasedTaskOutcome">
+                  </a> <!-- ShipmentUnitNotReleasedTaskOutcome -->
+                  <span class="method-name">ShipmentUnitNotReleasedTaskOutcome</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignatureNotCapturedTaskOutcome">
+                  </a> <!-- SignatureNotCapturedTaskOutcome -->
+                  <span class="method-name">SignatureNotCapturedTaskOutcome</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UNDELIVERED">
+                  </a> <!-- UNDELIVERED -->
+                  <span class="method-name">UNDELIVERED</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyStatusCode">
+                  </a> <!-- VerifyStatusCode -->
+                  <span class="method-name">VerifyStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WYtimestamp">
+                  </a> <!-- WYtimestamp -->
+                  <span class="method-name">WYtimestamp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WayPointAddress">
+                  </a> <!-- WayPointAddress -->
+                  <span class="method-name">WayPointAddress</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WayPointAddresscodes">
+                  </a> <!-- WayPointAddresscodes -->
+                  <span class="method-name">WayPointAddresscodes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="handlingUnit">
+                  </a> <!-- handlingUnit -->
+                  <span class="method-name">handlingUnit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="paymentNOTaccepteddetails">
+                  </a> <!-- paymentNOTaccepteddetails -->
+                  <span class="method-name">paymentNOTaccepteddetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="paymentaccepteddetails">
+                  </a> <!-- paymentaccepteddetails -->
+                  <span class="method-name">paymentaccepteddetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="paymenttask">
+                  </a> <!-- paymenttask -->
+                  <span class="method-name">paymenttask</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="releaseshipmentdetails">
+                  </a> <!-- releaseshipmentdetails -->
+                  <span class="method-name">releaseshipmentdetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="taskOutcome">
+                  </a> <!-- taskOutcome -->
+                  <span class="method-name">taskOutcome</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="taskOutcome1">
+                  </a> <!-- taskOutcome1 -->
+                  <span class="method-name">taskOutcome1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="taskOutcome2">
+                  </a> <!-- taskOutcome2 -->
+                  <span class="method-name">taskOutcome2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="taskType">
+                  </a> <!-- taskType -->
+                  <span class="method-name">taskType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="taskType1">
+                  </a> <!-- taskType1 -->
+                  <span class="method-name">taskType1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="taskUUID">
+                  </a> <!-- taskUUID -->
+                  <span class="method-name">taskUUID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="taskaddress">
+                  </a> <!-- taskaddress -->
+                  <span class="method-name">taskaddress</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="taskadress2">
+                  </a> <!-- taskadress2 -->
+                  <span class="method-name">taskadress2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="taskoutcomedetails">
+                  </a> <!-- taskoutcomedetails -->
+                  <span class="method-name">taskoutcomedetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tasktimestamp">
+                  </a> <!-- tasktimestamp -->
+                  <span class="method-name">tasktimestamp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_operationId">
+                  </a> <!-- test_operationId -->
+                  <span class="method-name">test_operationId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tripId">
+                  </a> <!-- tripId -->
+                  <span class="method-name">tripId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tripUUID">
+                  </a> <!-- tripUUID -->
+                  <span class="method-name">tripUUID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tripinterrupt">
+                  </a> <!-- tripinterrupt -->
+                  <span class="method-name">tripinterrupt</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="waypointDate">
+                  </a> <!-- waypointDate -->
+                  <span class="method-name">waypointDate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="waypointNumber">
+                  </a> <!-- waypointNumber -->
+                  <span class="method-name">waypointNumber</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="waypointStage">
+                  </a> <!-- waypointStage -->
+                  <span class="method-name">waypointStage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="waypointType">
+                  </a> <!-- waypointType -->
+                  <span class="method-name">waypointType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\3691713\AppData\Local\Temp\testng-eclipse--1872815026\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;NewRestAssured.NewRestAssured.TestforSampleAPI&quot;/&gt;
+      &lt;class name=&quot;NewRestAssured.NewRestAssured.reconcilewaypointviewer&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(44);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Capturesignature')
+data.setCell(0, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(0, 3, 3314);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'RelinquishedTaskOutcomeDETAILS')
+data.setCell(1, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(1, 3, 3129);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ReconcilewaypointBuilder')
+data.setCell(2, 2, 'NewRestAssured.NewRestAssured.TestforSampleAPI')
+data.setCell(2, 3, 1179);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'AcquiredTaskOutcome')
+data.setCell(3, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(3, 3, 845);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'DEVIATION')
+data.setCell(4, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(4, 3, 423);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Capturesignaturedetails')
+data.setCell(5, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(5, 3, 261);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'paymentaccepteddetails')
+data.setCell(6, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(6, 3, 232);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'tripinterrupt')
+data.setCell(7, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(7, 3, 210);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'IMPEDEDTASK')
+data.setCell(8, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(8, 3, 208);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'test_operationId')
+data.setCell(9, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(9, 3, 162);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'RelinquishedTaskOutcome')
+data.setCell(10, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(10, 3, 160);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'REFUSEDTASK')
+data.setCell(11, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(11, 3, 155);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'IRREGULARITY')
+data.setCell(12, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(12, 3, 147);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'UNDELIVERED')
+data.setCell(13, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(13, 3, 145);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'WayPointAddresscodes')
+data.setCell(14, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(14, 3, 136);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'REROUTE')
+data.setCell(15, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(15, 3, 131);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'REQUESTREROUTE')
+data.setCell(16, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(16, 3, 128);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'tripUUID')
+data.setCell(17, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(17, 3, 125);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'paymentNOTaccepteddetails')
+data.setCell(18, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(18, 3, 122);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'SignatureNotCapturedTaskOutcome')
+data.setCell(19, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(19, 3, 111);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'waypointDate')
+data.setCell(20, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(20, 3, 110);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'ShipmentUnitNotReleasedTaskOutcome')
+data.setCell(21, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(21, 3, 108);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'ShipmentUnitNotReleased')
+data.setCell(22, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(22, 3, 102);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'releaseshipmentdetails')
+data.setCell(23, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(23, 3, 101);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'waypointUUID')
+data.setCell(24, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(24, 3, 101);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'taskoutcomedetails')
+data.setCell(25, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(25, 3, 100);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'taskadress2')
+data.setCell(26, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(26, 3, 99);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'WayPointAddress')
+data.setCell(27, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(27, 3, 94);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'handlingUnit')
+data.setCell(28, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(28, 3, 93);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'WYtimestamp')
+data.setCell(29, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(29, 3, 92);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'paymenttask')
+data.setCell(30, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(30, 3, 88);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'tripId')
+data.setCell(31, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(31, 3, 87);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'waypointStage')
+data.setCell(32, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(32, 3, 87);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'waypointType')
+data.setCell(33, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(33, 3, 86);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'VerifyStatusCode')
+data.setCell(34, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(34, 3, 85);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'taskType1')
+data.setCell(35, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(35, 3, 79);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'taskaddress')
+data.setCell(36, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(36, 3, 78);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'taskOutcome')
+data.setCell(37, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(37, 3, 78);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'waypointNumber')
+data.setCell(38, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(38, 3, 75);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'tasktimestamp')
+data.setCell(39, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(39, 3, 74);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'taskOutcome2')
+data.setCell(40, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(40, 3, 72);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'taskOutcome1')
+data.setCell(41, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(41, 3, 68);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'taskUUID')
+data.setCell(42, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(42, 3, 64);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'taskType')
+data.setCell(43, 2, 'NewRestAssured.NewRestAssured.reconcilewaypointviewer')
+data.setCell(43, 3, 58);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">NewRestAssured.NewRestAssured.TestforSampleAPI</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">testbefore</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">NewRestAssured.NewRestAssured.reconcilewaypointviewer</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">testbefore</span>
+                <span class="method-start">5903 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">NewRestAssured.NewRestAssured.TestforSampleAPI</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ReconcilewaypointBuilder</span>
+                <span class="method-start">12834 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ReconcilewaypointBuilder status=SUCCESS method=TestforSampleAPI.ReconcilewaypointBu...)</span>
+                <span class="method-start">14017 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14028 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">NewRestAssured.NewRestAssured.reconcilewaypointviewer</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">AcquiredTaskOutcome</span>
+                <span class="method-start">15649 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=AcquiredTaskOutcome status=SUCCESS method=reconcilewaypointviewer.AcquiredTaskOutco...)</span>
+                <span class="method-start">16495 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Capturesignature</span>
+                <span class="method-start">16496 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Capturesignature status=SUCCESS method=reconcilewaypointviewer.Capturesignature()[p...)</span>
+                <span class="method-start">19811 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Capturesignaturedetails</span>
+                <span class="method-start">19811 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=Capturesignaturedetails status=SUCCESS method=reconcilewaypointviewer.Capturesignat...)</span>
+                <span class="method-start">20074 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">DEVIATION</span>
+                <span class="method-start">20075 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=DEVIATION status=SUCCESS method=reconcilewaypointviewer.DEVIATION()[pri:0, instance...)</span>
+                <span class="method-start">20500 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">IMPEDEDTASK</span>
+                <span class="method-start">20500 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=IMPEDEDTASK status=SUCCESS method=reconcilewaypointviewer.IMPEDEDTASK()[pri:0, inst...)</span>
+                <span class="method-start">20709 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">IRREGULARITY</span>
+                <span class="method-start">20710 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=IRREGULARITY status=SUCCESS method=reconcilewaypointviewer.IRREGULARITY()[pri:0, in...)</span>
+                <span class="method-start">20858 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">REFUSEDTASK</span>
+                <span class="method-start">20858 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=REFUSEDTASK status=SUCCESS method=reconcilewaypointviewer.REFUSEDTASK()[pri:0, inst...)</span>
+                <span class="method-start">21014 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">REQUESTREROUTE</span>
+                <span class="method-start">21015 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=REQUESTREROUTE status=SUCCESS method=reconcilewaypointviewer.REQUESTREROUTE()[pri:0...)</span>
+                <span class="method-start">21143 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">REROUTE</span>
+                <span class="method-start">21145 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=REROUTE status=SUCCESS method=reconcilewaypointviewer.REROUTE()[pri:0, instance:New...)</span>
+                <span class="method-start">21277 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">RelinquishedTaskOutcome</span>
+                <span class="method-start">21278 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=RelinquishedTaskOutcome status=SUCCESS method=reconcilewaypointviewer.RelinquishedT...)</span>
+                <span class="method-start">21441 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">RelinquishedTaskOutcomeDETAILS</span>
+                <span class="method-start">21442 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=RelinquishedTaskOutcomeDETAILS status=SUCCESS method=reconcilewaypointviewer.Relinq...)</span>
+                <span class="method-start">24574 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ShipmentUnitNotReleased</span>
+                <span class="method-start">24575 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ShipmentUnitNotReleased status=SUCCESS method=reconcilewaypointviewer.ShipmentUnitN...)</span>
+                <span class="method-start">24678 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ShipmentUnitNotReleasedTaskOutcome</span>
+                <span class="method-start">24680 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ShipmentUnitNotReleasedTaskOutcome status=SUCCESS method=reconcilewaypointviewer.Sh...)</span>
+                <span class="method-start">24789 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">SignatureNotCapturedTaskOutcome</span>
+                <span class="method-start">24789 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=SignatureNotCapturedTaskOutcome status=SUCCESS method=reconcilewaypointviewer.Signa...)</span>
+                <span class="method-start">24901 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">UNDELIVERED</span>
+                <span class="method-start">24901 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=UNDELIVERED status=SUCCESS method=reconcilewaypointviewer.UNDELIVERED()[pri:0, inst...)</span>
+                <span class="method-start">25047 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyStatusCode</span>
+                <span class="method-start">25047 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=VerifyStatusCode status=SUCCESS method=reconcilewaypointviewer.VerifyStatusCode()[p...)</span>
+                <span class="method-start">25133 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">WYtimestamp</span>
+                <span class="method-start">25134 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=WYtimestamp status=SUCCESS method=reconcilewaypointviewer.WYtimestamp()[pri:0, inst...)</span>
+                <span class="method-start">25228 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">WayPointAddress</span>
+                <span class="method-start">25229 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=WayPointAddress status=SUCCESS method=reconcilewaypointviewer.WayPointAddress()[pri...)</span>
+                <span class="method-start">25325 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">WayPointAddresscodes</span>
+                <span class="method-start">25326 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=WayPointAddresscodes status=SUCCESS method=reconcilewaypointviewer.WayPointAddressc...)</span>
+                <span class="method-start">25463 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">handlingUnit</span>
+                <span class="method-start">25463 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=handlingUnit status=SUCCESS method=reconcilewaypointviewer.handlingUnit()[pri:0, in...)</span>
+                <span class="method-start">25557 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">paymentNOTaccepteddetails</span>
+                <span class="method-start">25558 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=paymentNOTaccepteddetails status=SUCCESS method=reconcilewaypointviewer.paymentNOTa...)</span>
+                <span class="method-start">25681 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">paymentaccepteddetails</span>
+                <span class="method-start">25682 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=paymentaccepteddetails status=SUCCESS method=reconcilewaypointviewer.paymentaccepte...)</span>
+                <span class="method-start">25915 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">paymenttask</span>
+                <span class="method-start">25916 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=paymenttask status=SUCCESS method=reconcilewaypointviewer.paymenttask()[pri:0, inst...)</span>
+                <span class="method-start">26004 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">releaseshipmentdetails</span>
+                <span class="method-start">26006 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=releaseshipmentdetails status=SUCCESS method=reconcilewaypointviewer.releaseshipmen...)</span>
+                <span class="method-start">26108 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">taskOutcome</span>
+                <span class="method-start">26108 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=taskOutcome status=SUCCESS method=reconcilewaypointviewer.taskOutcome()[pri:0, inst...)</span>
+                <span class="method-start">26187 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">taskOutcome1</span>
+                <span class="method-start">26187 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=taskOutcome1 status=SUCCESS method=reconcilewaypointviewer.taskOutcome1()[pri:0, in...)</span>
+                <span class="method-start">26255 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">taskOutcome2</span>
+                <span class="method-start">26256 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=taskOutcome2 status=SUCCESS method=reconcilewaypointviewer.taskOutcome2()[pri:0, in...)</span>
+                <span class="method-start">26330 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">taskType</span>
+                <span class="method-start">26330 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=taskType status=SUCCESS method=reconcilewaypointviewer.taskType()[pri:0, instance:N...)</span>
+                <span class="method-start">26389 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">taskType1</span>
+                <span class="method-start">26389 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=taskType1 status=SUCCESS method=reconcilewaypointviewer.taskType1()[pri:0, instance...)</span>
+                <span class="method-start">26469 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">taskUUID</span>
+                <span class="method-start">26469 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=taskUUID status=SUCCESS method=reconcilewaypointviewer.taskUUID()[pri:0, instance:N...)</span>
+                <span class="method-start">26534 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">taskaddress</span>
+                <span class="method-start">26534 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=taskaddress status=SUCCESS method=reconcilewaypointviewer.taskaddress()[pri:0, inst...)</span>
+                <span class="method-start">26613 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">taskadress2</span>
+                <span class="method-start">26613 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=taskadress2 status=SUCCESS method=reconcilewaypointviewer.taskadress2()[pri:0, inst...)</span>
+                <span class="method-start">26713 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">taskoutcomedetails</span>
+                <span class="method-start">26714 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=taskoutcomedetails status=SUCCESS method=reconcilewaypointviewer.taskoutcomedetails...)</span>
+                <span class="method-start">26815 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">tasktimestamp</span>
+                <span class="method-start">26815 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tasktimestamp status=SUCCESS method=reconcilewaypointviewer.tasktimestamp()[pri:0, ...)</span>
+                <span class="method-start">26890 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">test_operationId</span>
+                <span class="method-start">26890 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=test_operationId status=SUCCESS method=reconcilewaypointviewer.test_operationId()[p...)</span>
+                <span class="method-start">27053 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">tripId</span>
+                <span class="method-start">27053 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tripId status=SUCCESS method=reconcilewaypointviewer.tripId()[pri:0, instance:NewRe...)</span>
+                <span class="method-start">27140 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">tripUUID</span>
+                <span class="method-start">27141 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tripUUID status=SUCCESS method=reconcilewaypointviewer.tripUUID()[pri:0, instance:N...)</span>
+                <span class="method-start">27267 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">tripinterrupt</span>
+                <span class="method-start">27267 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tripinterrupt status=SUCCESS method=reconcilewaypointviewer.tripinterrupt()[pri:0, ...)</span>
+                <span class="method-start">27478 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">waypointDate</span>
+                <span class="method-start">27479 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=waypointDate status=SUCCESS method=reconcilewaypointviewer.waypointDate()[pri:0, in...)</span>
+                <span class="method-start">27590 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">waypointNumber</span>
+                <span class="method-start">27591 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=waypointNumber status=SUCCESS method=reconcilewaypointviewer.waypointNumber()[pri:0...)</span>
+                <span class="method-start">27667 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">waypointStage</span>
+                <span class="method-start">27667 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=waypointStage status=SUCCESS method=reconcilewaypointviewer.waypointStage()[pri:0, ...)</span>
+                <span class="method-start">27755 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">waypointType</span>
+                <span class="method-start">27758 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=waypointType status=SUCCESS method=reconcilewaypointviewer.waypointType()[pri:0, in...)</span>
+                <span class="method-start">27848 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">waypointUUID</span>
+                <span class="method-start">27848 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=waypointUUID status=FAILURE method=reconcilewaypointviewer.waypointUUID()[pri:0, in...)</span>
+                <span class="method-start">27952 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">27952 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
