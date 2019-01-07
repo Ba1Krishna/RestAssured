@@ -2,35 +2,25 @@ package NewRestAssured.NewRestAssured;
 import static com.jayway.restassured.RestAssured.given;
 import io.restassured.RestAssured;
 import com.jayway.restassured.http.ContentType;
-import io.restassured.http.Cookie;
-import io.restassured.matcher.RestAssuredMatchers.*;
-
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.response.ResponseBody;
-import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 
 import org.hamcrest.Matchers;
 import org.testng.ITestResult;
-import org.testng.Reporter;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 import static org.hamcrest.Matchers.equalTo;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-import org.testng.annotations.DataProvider;
-
-import org.testng.Assert;
-import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Test;
-import static org.hamcrest.Matchers.equalTo;
+import org.testng.annotations.BeforeTest;
+
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
@@ -51,7 +41,7 @@ public class reconcilewaypointviewer {
 	 JsonPath jsonPathEvaluator = body.jsonPath();
 	 
 	 
-	@BeforeSuite
+	 @BeforeTest
 	public void testbefore()
 	{
 		   System.setProperty("webdriver.chrome.driver", "C:\\Users\\3691713\\Documents\\chromedriver.exe");
@@ -97,7 +87,7 @@ public class reconcilewaypointviewer {
 		    when().get(a).
 		    then().
 		    assertThat().statusCode(200).and().contentType(ContentType.JSON).and().
-	        body("get(0).waypointUUID",equalTo("THANKYOU"));
+	        body("get(0).waypointUUID",equalTo("VIEWER"));
 		    
 		    logger.log(LogStatus.PASS, a);
 			logger.log(LogStatus.PASS,"waypointUUID verified");

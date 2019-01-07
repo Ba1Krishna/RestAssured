@@ -1,753 +1,662 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="44" passed="43">
+<testng-results skipped="0" failed="0" ignored="0" total="43" passed="43">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16581" started-at="2019-01-06T18:40:33Z" finished-at="2019-01-06T18:40:50Z">
+  <suite name="Default suite" duration-ms="17209" started-at="2019-01-07T22:03:39Z" finished-at="2019-01-07T22:03:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16581" started-at="2019-01-06T18:40:33Z" finished-at="2019-01-06T18:40:50Z">
-      <class name="NewRestAssured.NewRestAssured.TestforSampleAPI">
-        <test-method status="PASS" signature="testbefore()[pri:0, instance:NewRestAssured.NewRestAssured.TestforSampleAPI@26fb628]" name="testbefore" is-config="true" duration-ms="5902" started-at="2019-01-06T18:40:21Z" finished-at="2019-01-06T18:40:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testbefore -->
-        <test-method status="PASS" signature="testbefore()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="testbefore" is-config="true" duration-ms="6901" started-at="2019-01-06T18:40:26Z" finished-at="2019-01-06T18:40:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testbefore -->
-        <test-method status="PASS" signature="ReconcilewaypointBuilder()[pri:0, instance:NewRestAssured.NewRestAssured.TestforSampleAPI@26fb628]" name="ReconcilewaypointBuilder" duration-ms="1179" started-at="2019-01-06T18:40:33Z" finished-at="2019-01-06T18:40:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ReconcilewaypointBuilder -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.TestforSampleAPI@26fb628]" name="tearDown" is-config="true" duration-ms="2" started-at="2019-01-06T18:40:35Z" finished-at="2019-01-06T18:40:35Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ReconcilewaypointBuilder status=SUCCESS method=TestforSampleAPI.ReconcilewaypointBuilder()[pri:0, instance:NewRestAssured.NewRestAssured.TestforSampleAPI@26fb628] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:NewRestAssured.NewRestAssured.TestforSampleAPI@26fb628]" name="tearDown" is-config="true" duration-ms="1619" started-at="2019-01-06T18:40:35Z" finished-at="2019-01-06T18:40:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- NewRestAssured.NewRestAssured.TestforSampleAPI -->
+    <test name="Default test" duration-ms="17209" started-at="2019-01-07T22:03:39Z" finished-at="2019-01-07T22:03:56Z">
       <class name="NewRestAssured.NewRestAssured.reconcilewaypointviewer">
-        <test-method status="PASS" signature="AcquiredTaskOutcome()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="AcquiredTaskOutcome" duration-ms="845" started-at="2019-01-06T18:40:36Z" finished-at="2019-01-06T18:40:37Z">
+        <test-method status="PASS" signature="testbefore()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="testbefore" is-config="true" duration-ms="6529" started-at="2019-01-07T22:03:39Z" finished-at="2019-01-07T22:03:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testbefore -->
+        <test-method status="PASS" signature="AcquiredTaskOutcome()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="AcquiredTaskOutcome" duration-ms="2487" started-at="2019-01-07T22:03:45Z" finished-at="2019-01-07T22:03:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AcquiredTaskOutcome -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-01-06T18:40:37Z" finished-at="2019-01-06T18:40:37Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-01-07T22:03:48Z" finished-at="2019-01-07T22:03:48Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=AcquiredTaskOutcome status=SUCCESS method=reconcilewaypointviewer.AcquiredTaskOutcome()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
+                <![CDATA[[TestResult name=AcquiredTaskOutcome status=SUCCESS method=reconcilewaypointviewer.AcquiredTaskOutcome()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="Capturesignature()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="Capturesignature" duration-ms="3314" started-at="2019-01-06T18:40:37Z" finished-at="2019-01-06T18:40:40Z">
+        <test-method status="PASS" signature="Capturesignature()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="Capturesignature" duration-ms="381" started-at="2019-01-07T22:03:48Z" finished-at="2019-01-07T22:03:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Capturesignature -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-06T18:40:40Z" finished-at="2019-01-06T18:40:40Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-07T22:03:48Z" finished-at="2019-01-07T22:03:48Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Capturesignature status=SUCCESS method=reconcilewaypointviewer.Capturesignature()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
+                <![CDATA[[TestResult name=Capturesignature status=SUCCESS method=reconcilewaypointviewer.Capturesignature()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="Capturesignaturedetails()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="Capturesignaturedetails" duration-ms="261" started-at="2019-01-06T18:40:40Z" finished-at="2019-01-06T18:40:41Z">
+        <test-method status="PASS" signature="Capturesignaturedetails()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="Capturesignaturedetails" duration-ms="239" started-at="2019-01-07T22:03:48Z" finished-at="2019-01-07T22:03:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Capturesignaturedetails -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-01-06T18:40:41Z" finished-at="2019-01-06T18:40:41Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Capturesignaturedetails status=SUCCESS method=reconcilewaypointviewer.Capturesignaturedetails()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="DEVIATION()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="DEVIATION" duration-ms="423" started-at="2019-01-06T18:40:41Z" finished-at="2019-01-06T18:40:41Z">
+        <test-method status="PASS" signature="DEVIATION()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="DEVIATION" duration-ms="218" started-at="2019-01-07T22:03:49Z" finished-at="2019-01-07T22:03:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DEVIATION -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-06T18:40:41Z" finished-at="2019-01-06T18:40:41Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-07T22:03:49Z" finished-at="2019-01-07T22:03:49Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=DEVIATION status=SUCCESS method=reconcilewaypointviewer.DEVIATION()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
+                <![CDATA[[TestResult name=Capturesignaturedetails status=SUCCESS method=reconcilewaypointviewer.Capturesignaturedetails()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="IMPEDEDTASK()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="IMPEDEDTASK" duration-ms="208" started-at="2019-01-06T18:40:41Z" finished-at="2019-01-06T18:40:41Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="4" started-at="2019-01-07T22:03:49Z" finished-at="2019-01-07T22:03:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DEVIATION status=SUCCESS method=reconcilewaypointviewer.DEVIATION()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="IMPEDEDTASK()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="IMPEDEDTASK" duration-ms="239" started-at="2019-01-07T22:03:49Z" finished-at="2019-01-07T22:03:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- IMPEDEDTASK -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-01-06T18:40:41Z" finished-at="2019-01-06T18:40:41Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-07T22:03:49Z" finished-at="2019-01-07T22:03:49Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=IMPEDEDTASK status=SUCCESS method=reconcilewaypointviewer.IMPEDEDTASK()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
+                <![CDATA[[TestResult name=IMPEDEDTASK status=SUCCESS method=reconcilewaypointviewer.IMPEDEDTASK()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="IRREGULARITY()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="IRREGULARITY" duration-ms="147" started-at="2019-01-06T18:40:41Z" finished-at="2019-01-06T18:40:41Z">
+        <test-method status="PASS" signature="IRREGULARITY()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="IRREGULARITY" duration-ms="217" started-at="2019-01-07T22:03:49Z" finished-at="2019-01-07T22:03:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- IRREGULARITY -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-06T18:40:41Z" finished-at="2019-01-06T18:40:41Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-07T22:03:49Z" finished-at="2019-01-07T22:03:49Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=IRREGULARITY status=SUCCESS method=reconcilewaypointviewer.IRREGULARITY()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
+                <![CDATA[[TestResult name=IRREGULARITY status=SUCCESS method=reconcilewaypointviewer.IRREGULARITY()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="REFUSEDTASK()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="REFUSEDTASK" duration-ms="155" started-at="2019-01-06T18:40:41Z" finished-at="2019-01-06T18:40:42Z">
+        <test-method status="PASS" signature="REFUSEDTASK()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="REFUSEDTASK" duration-ms="161" started-at="2019-01-07T22:03:49Z" finished-at="2019-01-07T22:03:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- REFUSEDTASK -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-01-06T18:40:42Z" finished-at="2019-01-06T18:40:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=REFUSEDTASK status=SUCCESS method=reconcilewaypointviewer.REFUSEDTASK()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="REQUESTREROUTE()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="REQUESTREROUTE" duration-ms="128" started-at="2019-01-06T18:40:42Z" finished-at="2019-01-06T18:40:42Z">
+        <test-method status="PASS" signature="REQUESTREROUTE()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="REQUESTREROUTE" duration-ms="138" started-at="2019-01-07T22:03:49Z" finished-at="2019-01-07T22:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- REQUESTREROUTE -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-01-06T18:40:42Z" finished-at="2019-01-06T18:40:42Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-07T22:03:49Z" finished-at="2019-01-07T22:03:49Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=REQUESTREROUTE status=SUCCESS method=reconcilewaypointviewer.REQUESTREROUTE()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
+                <![CDATA[[TestResult name=REFUSEDTASK status=SUCCESS method=reconcilewaypointviewer.REFUSEDTASK()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="REROUTE()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="REROUTE" duration-ms="131" started-at="2019-01-06T18:40:42Z" finished-at="2019-01-06T18:40:42Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-01-07T22:03:50Z" finished-at="2019-01-07T22:03:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=REQUESTREROUTE status=SUCCESS method=reconcilewaypointviewer.REQUESTREROUTE()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="REROUTE()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="REROUTE" duration-ms="140" started-at="2019-01-07T22:03:50Z" finished-at="2019-01-07T22:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- REROUTE -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-01-06T18:40:42Z" finished-at="2019-01-06T18:40:42Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-01-07T22:03:50Z" finished-at="2019-01-07T22:03:50Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=REROUTE status=SUCCESS method=reconcilewaypointviewer.REROUTE()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
+                <![CDATA[[TestResult name=REROUTE status=SUCCESS method=reconcilewaypointviewer.REROUTE()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="RelinquishedTaskOutcome()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="RelinquishedTaskOutcome" duration-ms="160" started-at="2019-01-06T18:40:42Z" finished-at="2019-01-06T18:40:42Z">
+        <test-method status="PASS" signature="RelinquishedTaskOutcome()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="RelinquishedTaskOutcome" duration-ms="159" started-at="2019-01-07T22:03:50Z" finished-at="2019-01-07T22:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RelinquishedTaskOutcome -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-01-06T18:40:42Z" finished-at="2019-01-06T18:40:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=RelinquishedTaskOutcome status=SUCCESS method=reconcilewaypointviewer.RelinquishedTaskOutcome()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="RelinquishedTaskOutcomeDETAILS()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="RelinquishedTaskOutcomeDETAILS" duration-ms="3129" started-at="2019-01-06T18:40:42Z" finished-at="2019-01-06T18:40:45Z">
+        <test-method status="PASS" signature="RelinquishedTaskOutcomeDETAILS()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="RelinquishedTaskOutcomeDETAILS" duration-ms="225" started-at="2019-01-07T22:03:50Z" finished-at="2019-01-07T22:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RelinquishedTaskOutcomeDETAILS -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-06T18:40:45Z" finished-at="2019-01-06T18:40:45Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-07T22:03:50Z" finished-at="2019-01-07T22:03:50Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=RelinquishedTaskOutcomeDETAILS status=SUCCESS method=reconcilewaypointviewer.RelinquishedTaskOutcomeDETAILS()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
+                <![CDATA[[TestResult name=RelinquishedTaskOutcome status=SUCCESS method=reconcilewaypointviewer.RelinquishedTaskOutcome()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="ShipmentUnitNotReleased()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="ShipmentUnitNotReleased" duration-ms="102" started-at="2019-01-06T18:40:45Z" finished-at="2019-01-06T18:40:45Z">
+        <test-method status="PASS" signature="ShipmentUnitNotReleased()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="ShipmentUnitNotReleased" duration-ms="156" started-at="2019-01-07T22:03:50Z" finished-at="2019-01-07T22:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ShipmentUnitNotReleased -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="2" started-at="2019-01-06T18:40:45Z" finished-at="2019-01-06T18:40:45Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-07T22:03:50Z" finished-at="2019-01-07T22:03:50Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ShipmentUnitNotReleased status=SUCCESS method=reconcilewaypointviewer.ShipmentUnitNotReleased()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
+                <![CDATA[[TestResult name=RelinquishedTaskOutcomeDETAILS status=SUCCESS method=reconcilewaypointviewer.RelinquishedTaskOutcomeDETAILS()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="ShipmentUnitNotReleasedTaskOutcome()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="ShipmentUnitNotReleasedTaskOutcome" duration-ms="108" started-at="2019-01-06T18:40:45Z" finished-at="2019-01-06T18:40:45Z">
+        <test-method status="PASS" signature="ShipmentUnitNotReleasedTaskOutcome()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="ShipmentUnitNotReleasedTaskOutcome" duration-ms="151" started-at="2019-01-07T22:03:50Z" finished-at="2019-01-07T22:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ShipmentUnitNotReleasedTaskOutcome -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-06T18:40:45Z" finished-at="2019-01-06T18:40:45Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-07T22:03:50Z" finished-at="2019-01-07T22:03:50Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ShipmentUnitNotReleasedTaskOutcome status=SUCCESS method=reconcilewaypointviewer.ShipmentUnitNotReleasedTaskOutcome()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
+                <![CDATA[[TestResult name=ShipmentUnitNotReleased status=SUCCESS method=reconcilewaypointviewer.ShipmentUnitNotReleased()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="SignatureNotCapturedTaskOutcome()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="SignatureNotCapturedTaskOutcome" duration-ms="111" started-at="2019-01-06T18:40:45Z" finished-at="2019-01-06T18:40:45Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-01-07T22:03:50Z" finished-at="2019-01-07T22:03:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ShipmentUnitNotReleasedTaskOutcome status=SUCCESS method=reconcilewaypointviewer.ShipmentUnitNotReleasedTaskOutcome()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SignatureNotCapturedTaskOutcome()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="SignatureNotCapturedTaskOutcome" duration-ms="151" started-at="2019-01-07T22:03:50Z" finished-at="2019-01-07T22:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignatureNotCapturedTaskOutcome -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-06T18:40:45Z" finished-at="2019-01-06T18:40:45Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-01-07T22:03:50Z" finished-at="2019-01-07T22:03:50Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SignatureNotCapturedTaskOutcome status=SUCCESS method=reconcilewaypointviewer.SignatureNotCapturedTaskOutcome()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
+                <![CDATA[[TestResult name=SignatureNotCapturedTaskOutcome status=SUCCESS method=reconcilewaypointviewer.SignatureNotCapturedTaskOutcome()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="UNDELIVERED()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="UNDELIVERED" duration-ms="145" started-at="2019-01-06T18:40:45Z" finished-at="2019-01-06T18:40:46Z">
+        <test-method status="PASS" signature="UNDELIVERED()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="UNDELIVERED" duration-ms="243" started-at="2019-01-07T22:03:50Z" finished-at="2019-01-07T22:03:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UNDELIVERED -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-06T18:40:46Z" finished-at="2019-01-06T18:40:46Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-07T22:03:51Z" finished-at="2019-01-07T22:03:51Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=UNDELIVERED status=SUCCESS method=reconcilewaypointviewer.UNDELIVERED()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
+                <![CDATA[[TestResult name=UNDELIVERED status=SUCCESS method=reconcilewaypointviewer.UNDELIVERED()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="VerifyStatusCode()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="VerifyStatusCode" duration-ms="85" started-at="2019-01-06T18:40:46Z" finished-at="2019-01-06T18:40:46Z">
+        <test-method status="PASS" signature="VerifyStatusCode()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="VerifyStatusCode" duration-ms="298" started-at="2019-01-07T22:03:51Z" finished-at="2019-01-07T22:03:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyStatusCode -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-06T18:40:46Z" finished-at="2019-01-06T18:40:46Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-01-07T22:03:51Z" finished-at="2019-01-07T22:03:51Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VerifyStatusCode status=SUCCESS method=reconcilewaypointviewer.VerifyStatusCode()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
+                <![CDATA[[TestResult name=VerifyStatusCode status=SUCCESS method=reconcilewaypointviewer.VerifyStatusCode()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="WYtimestamp()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="WYtimestamp" duration-ms="92" started-at="2019-01-06T18:40:46Z" finished-at="2019-01-06T18:40:46Z">
+        <test-method status="PASS" signature="WYtimestamp()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="WYtimestamp" duration-ms="145" started-at="2019-01-07T22:03:51Z" finished-at="2019-01-07T22:03:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WYtimestamp -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-06T18:40:46Z" finished-at="2019-01-06T18:40:46Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-07T22:03:51Z" finished-at="2019-01-07T22:03:51Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=WYtimestamp status=SUCCESS method=reconcilewaypointviewer.WYtimestamp()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
+                <![CDATA[[TestResult name=WYtimestamp status=SUCCESS method=reconcilewaypointviewer.WYtimestamp()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="WayPointAddress()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="WayPointAddress" duration-ms="94" started-at="2019-01-06T18:40:46Z" finished-at="2019-01-06T18:40:46Z">
+        <test-method status="PASS" signature="WayPointAddress()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="WayPointAddress" duration-ms="223" started-at="2019-01-07T22:03:51Z" finished-at="2019-01-07T22:03:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WayPointAddress -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-01-06T18:40:46Z" finished-at="2019-01-06T18:40:46Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-01-07T22:03:51Z" finished-at="2019-01-07T22:03:51Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=WayPointAddress status=SUCCESS method=reconcilewaypointviewer.WayPointAddress()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
+                <![CDATA[[TestResult name=WayPointAddress status=SUCCESS method=reconcilewaypointviewer.WayPointAddress()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="WayPointAddresscodes()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="WayPointAddresscodes" duration-ms="136" started-at="2019-01-06T18:40:46Z" finished-at="2019-01-06T18:40:46Z">
+        <test-method status="PASS" signature="WayPointAddresscodes()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="WayPointAddresscodes" duration-ms="238" started-at="2019-01-07T22:03:51Z" finished-at="2019-01-07T22:03:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WayPointAddresscodes -->
-        <test-method status="PASS" signature="handlingUnit()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="handlingUnit" duration-ms="93" started-at="2019-01-06T18:40:46Z" finished-at="2019-01-06T18:40:46Z">
+        <test-method status="PASS" signature="handlingUnit()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="handlingUnit" duration-ms="109" started-at="2019-01-07T22:03:52Z" finished-at="2019-01-07T22:03:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- handlingUnit -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-06T18:40:46Z" finished-at="2019-01-06T18:40:46Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-07T22:03:52Z" finished-at="2019-01-07T22:03:52Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=WayPointAddresscodes status=SUCCESS method=reconcilewaypointviewer.WayPointAddresscodes()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
+                <![CDATA[[TestResult name=WayPointAddresscodes status=SUCCESS method=reconcilewaypointviewer.WayPointAddresscodes()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-06T18:40:46Z" finished-at="2019-01-06T18:40:46Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-07T22:03:52Z" finished-at="2019-01-07T22:03:52Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=handlingUnit status=SUCCESS method=reconcilewaypointviewer.handlingUnit()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
+                <![CDATA[[TestResult name=handlingUnit status=SUCCESS method=reconcilewaypointviewer.handlingUnit()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="paymentNOTaccepteddetails()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="paymentNOTaccepteddetails" duration-ms="122" started-at="2019-01-06T18:40:46Z" finished-at="2019-01-06T18:40:46Z">
+        <test-method status="PASS" signature="paymentNOTaccepteddetails()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="paymentNOTaccepteddetails" duration-ms="144" started-at="2019-01-07T22:03:52Z" finished-at="2019-01-07T22:03:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- paymentNOTaccepteddetails -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-06T18:40:46Z" finished-at="2019-01-06T18:40:46Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-07T22:03:52Z" finished-at="2019-01-07T22:03:52Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=paymentNOTaccepteddetails status=SUCCESS method=reconcilewaypointviewer.paymentNOTaccepteddetails()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
+                <![CDATA[[TestResult name=paymentNOTaccepteddetails status=SUCCESS method=reconcilewaypointviewer.paymentNOTaccepteddetails()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="paymentaccepteddetails()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="paymentaccepteddetails" duration-ms="232" started-at="2019-01-06T18:40:46Z" finished-at="2019-01-06T18:40:47Z">
+        <test-method status="PASS" signature="paymentaccepteddetails()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="paymentaccepteddetails" duration-ms="156" started-at="2019-01-07T22:03:52Z" finished-at="2019-01-07T22:03:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- paymentaccepteddetails -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-06T18:40:47Z" finished-at="2019-01-06T18:40:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=paymentaccepteddetails status=SUCCESS method=reconcilewaypointviewer.paymentaccepteddetails()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="paymenttask()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="paymenttask" duration-ms="88" started-at="2019-01-06T18:40:47Z" finished-at="2019-01-06T18:40:47Z">
+        <test-method status="PASS" signature="paymenttask()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="paymenttask" duration-ms="105" started-at="2019-01-07T22:03:52Z" finished-at="2019-01-07T22:03:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- paymenttask -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="2" started-at="2019-01-06T18:40:47Z" finished-at="2019-01-06T18:40:47Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-07T22:03:52Z" finished-at="2019-01-07T22:03:52Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=paymenttask status=SUCCESS method=reconcilewaypointviewer.paymenttask()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
+                <![CDATA[[TestResult name=paymentaccepteddetails status=SUCCESS method=reconcilewaypointviewer.paymentaccepteddetails()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="releaseshipmentdetails()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="releaseshipmentdetails" duration-ms="101" started-at="2019-01-06T18:40:47Z" finished-at="2019-01-06T18:40:47Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-01-07T22:03:52Z" finished-at="2019-01-07T22:03:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=paymenttask status=SUCCESS method=reconcilewaypointviewer.paymenttask()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="releaseshipmentdetails()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="releaseshipmentdetails" duration-ms="92" started-at="2019-01-07T22:03:52Z" finished-at="2019-01-07T22:03:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- releaseshipmentdetails -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-06T18:40:47Z" finished-at="2019-01-06T18:40:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=releaseshipmentdetails status=SUCCESS method=reconcilewaypointviewer.releaseshipmentdetails()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="taskOutcome()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="taskOutcome" duration-ms="78" started-at="2019-01-06T18:40:47Z" finished-at="2019-01-06T18:40:47Z">
+        <test-method status="PASS" signature="taskOutcome()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="taskOutcome" duration-ms="80" started-at="2019-01-07T22:03:52Z" finished-at="2019-01-07T22:03:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- taskOutcome -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-06T18:40:47Z" finished-at="2019-01-06T18:40:47Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-07T22:03:52Z" finished-at="2019-01-07T22:03:52Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=taskOutcome status=SUCCESS method=reconcilewaypointviewer.taskOutcome()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
+                <![CDATA[[TestResult name=releaseshipmentdetails status=SUCCESS method=reconcilewaypointviewer.releaseshipmentdetails()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="taskOutcome1()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="taskOutcome1" duration-ms="68" started-at="2019-01-06T18:40:47Z" finished-at="2019-01-06T18:40:47Z">
+        <test-method status="PASS" signature="taskOutcome1()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="taskOutcome1" duration-ms="94" started-at="2019-01-07T22:03:52Z" finished-at="2019-01-07T22:03:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- taskOutcome1 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-01-06T18:40:47Z" finished-at="2019-01-06T18:40:47Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-07T22:03:52Z" finished-at="2019-01-07T22:03:52Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=taskOutcome1 status=SUCCESS method=reconcilewaypointviewer.taskOutcome1()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
+                <![CDATA[[TestResult name=taskOutcome status=SUCCESS method=reconcilewaypointviewer.taskOutcome()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="taskOutcome2()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="taskOutcome2" duration-ms="72" started-at="2019-01-06T18:40:47Z" finished-at="2019-01-06T18:40:47Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-07T22:03:52Z" finished-at="2019-01-07T22:03:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=taskOutcome1 status=SUCCESS method=reconcilewaypointviewer.taskOutcome1()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="taskOutcome2()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="taskOutcome2" duration-ms="193" started-at="2019-01-07T22:03:52Z" finished-at="2019-01-07T22:03:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- taskOutcome2 -->
-        <test-method status="PASS" signature="taskType()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="taskType" duration-ms="58" started-at="2019-01-06T18:40:47Z" finished-at="2019-01-06T18:40:47Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-07T22:03:53Z" finished-at="2019-01-07T22:03:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=taskOutcome2 status=SUCCESS method=reconcilewaypointviewer.taskOutcome2()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="taskType()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="taskType" duration-ms="161" started-at="2019-01-07T22:03:53Z" finished-at="2019-01-07T22:03:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- taskType -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-06T18:40:47Z" finished-at="2019-01-06T18:40:47Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-01-07T22:03:53Z" finished-at="2019-01-07T22:03:53Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=taskOutcome2 status=SUCCESS method=reconcilewaypointviewer.taskOutcome2()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
+                <![CDATA[[TestResult name=taskType status=SUCCESS method=reconcilewaypointviewer.taskType()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-06T18:40:47Z" finished-at="2019-01-06T18:40:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=taskType status=SUCCESS method=reconcilewaypointviewer.taskType()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="taskType1()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="taskType1" duration-ms="79" started-at="2019-01-06T18:40:47Z" finished-at="2019-01-06T18:40:47Z">
+        <test-method status="PASS" signature="taskType1()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="taskType1" duration-ms="123" started-at="2019-01-07T22:03:53Z" finished-at="2019-01-07T22:03:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- taskType1 -->
-        <test-method status="PASS" signature="taskUUID()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="taskUUID" duration-ms="64" started-at="2019-01-06T18:40:47Z" finished-at="2019-01-06T18:40:47Z">
+        <test-method status="PASS" signature="taskUUID()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="taskUUID" duration-ms="102" started-at="2019-01-07T22:03:53Z" finished-at="2019-01-07T22:03:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- taskUUID -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-06T18:40:47Z" finished-at="2019-01-06T18:40:47Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-07T22:03:53Z" finished-at="2019-01-07T22:03:53Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=taskType1 status=SUCCESS method=reconcilewaypointviewer.taskType1()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
+                <![CDATA[[TestResult name=taskType1 status=SUCCESS method=reconcilewaypointviewer.taskType1()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-06T18:40:47Z" finished-at="2019-01-06T18:40:47Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-01-07T22:03:53Z" finished-at="2019-01-07T22:03:53Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=taskUUID status=SUCCESS method=reconcilewaypointviewer.taskUUID()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
+                <![CDATA[[TestResult name=taskUUID status=SUCCESS method=reconcilewaypointviewer.taskUUID()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="taskaddress()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="taskaddress" duration-ms="78" started-at="2019-01-06T18:40:47Z" finished-at="2019-01-06T18:40:47Z">
+        <test-method status="PASS" signature="taskaddress()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="taskaddress" duration-ms="117" started-at="2019-01-07T22:03:53Z" finished-at="2019-01-07T22:03:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- taskaddress -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-06T18:40:47Z" finished-at="2019-01-06T18:40:47Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-01-07T22:03:53Z" finished-at="2019-01-07T22:03:53Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=taskaddress status=SUCCESS method=reconcilewaypointviewer.taskaddress()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
+                <![CDATA[[TestResult name=taskaddress status=SUCCESS method=reconcilewaypointviewer.taskaddress()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="taskadress2()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="taskadress2" duration-ms="99" started-at="2019-01-06T18:40:47Z" finished-at="2019-01-06T18:40:47Z">
+        <test-method status="PASS" signature="taskadress2()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="taskadress2" duration-ms="153" started-at="2019-01-07T22:03:53Z" finished-at="2019-01-07T22:03:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- taskadress2 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-06T18:40:47Z" finished-at="2019-01-06T18:40:47Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-01-07T22:03:53Z" finished-at="2019-01-07T22:03:53Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=taskadress2 status=SUCCESS method=reconcilewaypointviewer.taskadress2()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
+                <![CDATA[[TestResult name=taskadress2 status=SUCCESS method=reconcilewaypointviewer.taskadress2()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="taskoutcomedetails()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="taskoutcomedetails" duration-ms="100" started-at="2019-01-06T18:40:47Z" finished-at="2019-01-06T18:40:47Z">
+        <test-method status="PASS" signature="taskoutcomedetails()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="taskoutcomedetails" duration-ms="133" started-at="2019-01-07T22:03:53Z" finished-at="2019-01-07T22:03:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- taskoutcomedetails -->
-        <test-method status="PASS" signature="tasktimestamp()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tasktimestamp" duration-ms="74" started-at="2019-01-06T18:40:47Z" finished-at="2019-01-06T18:40:47Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-07T22:03:53Z" finished-at="2019-01-07T22:03:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=taskoutcomedetails status=SUCCESS method=reconcilewaypointviewer.taskoutcomedetails()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tasktimestamp()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tasktimestamp" duration-ms="127" started-at="2019-01-07T22:03:53Z" finished-at="2019-01-07T22:03:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tasktimestamp -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-06T18:40:47Z" finished-at="2019-01-06T18:40:47Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-07T22:03:54Z" finished-at="2019-01-07T22:03:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=taskoutcomedetails status=SUCCESS method=reconcilewaypointviewer.taskoutcomedetails()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
+                <![CDATA[[TestResult name=tasktimestamp status=SUCCESS method=reconcilewaypointviewer.tasktimestamp()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="test_operationId()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="test_operationId" duration-ms="162" started-at="2019-01-06T18:40:47Z" finished-at="2019-01-06T18:40:48Z">
+        <test-method status="PASS" signature="test_operationId()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="test_operationId" duration-ms="205" started-at="2019-01-07T22:03:54Z" finished-at="2019-01-07T22:03:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_operationId -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-06T18:40:47Z" finished-at="2019-01-06T18:40:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=tasktimestamp status=SUCCESS method=reconcilewaypointviewer.tasktimestamp()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tripId()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tripId" duration-ms="87" started-at="2019-01-06T18:40:48Z" finished-at="2019-01-06T18:40:48Z">
+        <test-method status="PASS" signature="tripId()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tripId" duration-ms="128" started-at="2019-01-07T22:03:54Z" finished-at="2019-01-07T22:03:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tripId -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-06T18:40:48Z" finished-at="2019-01-06T18:40:48Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-07T22:03:54Z" finished-at="2019-01-07T22:03:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test_operationId status=SUCCESS method=reconcilewaypointviewer.test_operationId()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
+                <![CDATA[[TestResult name=test_operationId status=SUCCESS method=reconcilewaypointviewer.test_operationId()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-01-06T18:40:48Z" finished-at="2019-01-06T18:40:48Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="3" started-at="2019-01-07T22:03:54Z" finished-at="2019-01-07T22:03:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=tripId status=SUCCESS method=reconcilewaypointviewer.tripId()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
+                <![CDATA[[TestResult name=tripId status=SUCCESS method=reconcilewaypointviewer.tripId()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tripUUID()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tripUUID" duration-ms="125" started-at="2019-01-06T18:40:48Z" finished-at="2019-01-06T18:40:48Z">
+        <test-method status="PASS" signature="tripUUID()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tripUUID" duration-ms="94" started-at="2019-01-07T22:03:54Z" finished-at="2019-01-07T22:03:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tripUUID -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-06T18:40:48Z" finished-at="2019-01-06T18:40:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=tripUUID status=SUCCESS method=reconcilewaypointviewer.tripUUID()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tripinterrupt()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tripinterrupt" duration-ms="210" started-at="2019-01-06T18:40:48Z" finished-at="2019-01-06T18:40:48Z">
+        <test-method status="PASS" signature="tripinterrupt()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tripinterrupt" duration-ms="115" started-at="2019-01-07T22:03:54Z" finished-at="2019-01-07T22:03:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tripinterrupt -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-01-06T18:40:48Z" finished-at="2019-01-06T18:40:48Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-07T22:03:54Z" finished-at="2019-01-07T22:03:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=tripinterrupt status=SUCCESS method=reconcilewaypointviewer.tripinterrupt()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
+                <![CDATA[[TestResult name=tripUUID status=SUCCESS method=reconcilewaypointviewer.tripUUID()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="waypointDate()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="waypointDate" duration-ms="110" started-at="2019-01-06T18:40:48Z" finished-at="2019-01-06T18:40:48Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-07T22:03:54Z" finished-at="2019-01-07T22:03:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tripinterrupt status=SUCCESS method=reconcilewaypointviewer.tripinterrupt()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="waypointDate()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="waypointDate" duration-ms="115" started-at="2019-01-07T22:03:54Z" finished-at="2019-01-07T22:03:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waypointDate -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-06T18:40:48Z" finished-at="2019-01-06T18:40:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=waypointDate status=SUCCESS method=reconcilewaypointviewer.waypointDate()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="waypointNumber()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="waypointNumber" duration-ms="75" started-at="2019-01-06T18:40:48Z" finished-at="2019-01-06T18:40:48Z">
+        <test-method status="PASS" signature="waypointNumber()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="waypointNumber" duration-ms="82" started-at="2019-01-07T22:03:54Z" finished-at="2019-01-07T22:03:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waypointNumber -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-06T18:40:48Z" finished-at="2019-01-06T18:40:48Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-07T22:03:54Z" finished-at="2019-01-07T22:03:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=waypointNumber status=SUCCESS method=reconcilewaypointviewer.waypointNumber()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
+                <![CDATA[[TestResult name=waypointDate status=SUCCESS method=reconcilewaypointviewer.waypointDate()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="waypointStage()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="waypointStage" duration-ms="87" started-at="2019-01-06T18:40:48Z" finished-at="2019-01-06T18:40:48Z">
+        <test-method status="PASS" signature="waypointStage()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="waypointStage" duration-ms="109" started-at="2019-01-07T22:03:54Z" finished-at="2019-01-07T22:03:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waypointStage -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-01-06T18:40:48Z" finished-at="2019-01-06T18:40:48Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-07T22:03:54Z" finished-at="2019-01-07T22:03:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=waypointStage status=SUCCESS method=reconcilewaypointviewer.waypointStage()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
+                <![CDATA[[TestResult name=waypointNumber status=SUCCESS method=reconcilewaypointviewer.waypointNumber()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="waypointType()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="waypointType" duration-ms="86" started-at="2019-01-06T18:40:48Z" finished-at="2019-01-06T18:40:48Z">
+        <test-method status="PASS" signature="waypointType()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="waypointType" duration-ms="97" started-at="2019-01-07T22:03:54Z" finished-at="2019-01-07T22:03:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waypointType -->
-        <test-method status="FAIL" signature="waypointUUID()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="waypointUUID" duration-ms="101" started-at="2019-01-06T18:40:48Z" finished-at="2019-01-06T18:40:49Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[1 expectation failed.
-JSON path get(0).waypointUUID doesn't match.
-Expected: THANKYOU
-  Actual: VIEWER
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 1 expectation failed.
-JSON path get(0).waypointUUID doesn't match.
-Expected: THANKYOU
-  Actual: VIEWER
-
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
-at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
-at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
-at com.jayway.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:598)
-at com.jayway.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-at com.jayway.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:760)
-at sun.reflect.GeneratedMethodAccessor37.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
-at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
-at com.jayway.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:251)
-at com.jayway.restassured.specification.ResponseSpecification$content$1.callCurrent(Unknown Source)
-at com.jayway.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:234)
-at com.jayway.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:264)
-at NewRestAssured.NewRestAssured.reconcilewaypointviewer.waypointUUID(reconcilewaypointviewer.java:101)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-07T22:03:54Z" finished-at="2019-01-07T22:03:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=waypointStage status=SUCCESS method=reconcilewaypointviewer.waypointStage()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-07T22:03:55Z" finished-at="2019-01-07T22:03:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=waypointType status=SUCCESS method=reconcilewaypointviewer.waypointType()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="waypointUUID()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="waypointUUID" duration-ms="130" started-at="2019-01-07T22:03:55Z" finished-at="2019-01-07T22:03:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waypointUUID -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-06T18:40:48Z" finished-at="2019-01-06T18:40:48Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-07T22:03:55Z" finished-at="2019-01-07T22:03:55Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=waypointType status=SUCCESS method=reconcilewaypointviewer.waypointType()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
+                <![CDATA[[TestResult name=waypointUUID status=SUCCESS method=reconcilewaypointviewer.waypointUUID()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="1432" started-at="2019-01-06T18:40:49Z" finished-at="2019-01-06T18:40:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-06T18:40:49Z" finished-at="2019-01-06T18:40:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=waypointUUID status=FAILURE method=reconcilewaypointviewer.waypointUUID()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3e2943ab] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:NewRestAssured.NewRestAssured.reconcilewaypointviewer@3d8bbcdc]" name="tearDown" is-config="true" duration-ms="1312" started-at="2019-01-07T22:03:55Z" finished-at="2019-01-07T22:03:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
